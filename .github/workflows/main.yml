@@ -38,4 +38,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: your-dockerhub-user/mcp-server:latest
+          tags: tri223/mcp-server:latest
