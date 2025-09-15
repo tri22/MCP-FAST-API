@@ -23,9 +23,10 @@ jobs:
           pip install -r requirements.txt
       
       - name: Run integration tests
-        working-directory: test
-        run: |
-          pytest .
+        run: pytest -v
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+
 
       - name: Log in to Docker Hub
         uses: docker/login-action@v2
