@@ -7,7 +7,7 @@ from openai import AsyncOpenAI
 from typing import Any, Dict, List
 
 session = None
-openai_client = AsyncOpenAI("OpenAI Key")
+openai_client = AsyncOpenAI()
 model = "gpt-4o"
 reader = None
 writer = None
