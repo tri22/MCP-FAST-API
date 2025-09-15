@@ -24,7 +24,7 @@ jobs:
           pip install -r requirements.txt
       
       - name: Run integration tests
-        working-directory: tests
+        working-directory: test
         run: |
           pytest .
 
