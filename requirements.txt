@@ -12,4 +12,6 @@ httpx==0.27.2
 
 # MCP (Model Context Protocol)
 mcp
-mcp-server
+mcp-server==0.1.4
+
+
