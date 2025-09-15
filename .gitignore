@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Environment variables
+*.env
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# SQLite database (nếu sinh ra file local)
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# Test coverage / pytest cache
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+*~
+
+# Docker
+*.pid
+*.tar
+*.sock
